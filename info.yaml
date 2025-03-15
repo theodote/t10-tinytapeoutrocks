@@ -1,12 +1,12 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
-  wokwi_id:     0       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  wokwi_id:     425498176219770881       # Set this to the ID of your Wokwi project (the number from the project's URL)
+  title:        "TinyTapeoutRocks"      # Project title
+  author:       "Theodote"      # Your name
+  discord:      "theodote"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "A sequential circuit that, when connected to a clock and to a dispay, spells out tinytapeoutrocks symbol-by-symbol on every clock edge."      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
-  clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
+  clock_hz:     2       # Clock frequency in Hz (or 0 if not applicable)
 
   # How many tiles your design occupies? A single tile is about 167x108 uM.
   tiles: "1x1"          # Valid values: 1x1, 1x2, 2x2, 3x2, 4x2, 6x2 or 8x2
@@ -25,14 +25,14 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: ""
-  uo[1]: ""
-  uo[2]: ""
-  uo[3]: ""
-  uo[4]: ""
-  uo[5]: ""
-  uo[6]: ""
-  uo[7]: ""
+  uo[0]: "A"
+  uo[1]: "B"
+  uo[2]: "C"
+  uo[3]: "D"
+  uo[4]: "E"
+  uo[5]: "F"
+  uo[6]: "G"
+  uo[7]: "DP"
 
   # Bidirectional pins
   uio[0]: ""
